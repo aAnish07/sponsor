@@ -1,0 +1,57 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0;
+}
+
+h1::after {
+    content: " ";
+    display: block;
+    background-color: #6195FF;
+    height: 4px;
+    width: 40px;
+    margin: 20px auto 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1000px;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.sponsor_card {
+    height: 40vh;
+    width: auto;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.sponsor_card:hover {
+    box-shadow: 0px 0px 10px #ddd;
+}
