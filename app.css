@@ -52,6 +52,10 @@ h1 {
     border-radius: 6px;
 }
 
+.sponsor_card:last-child {
+    margin-bottom: 40px;
+}
+
 .sponsor_card:hover {
     box-shadow: 0px 0px 10px #ddd;
 }
@@ -59,4 +63,32 @@ h1 {
 a:active {
     transform: scale(0.95);
     transition-duration: 1200ms;
+}
+
+footer {
+    background-color: #212529;
+    color: #9B9D97;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+footer > div > a {
+    color: #9B9D97;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px;
+}
+
+footer a:hover, footer svg:hover {
+    color: #C7C8C9;
+    fill: #C7C8C9;
+}
+
+#footLogo {
+    max-width: 120px;
+    margin-bottom: 15px;
 }
